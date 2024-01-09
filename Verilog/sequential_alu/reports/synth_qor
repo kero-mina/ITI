@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : sequential_alu
+Version: G-2012.06-SP2
+Date   : Sat Nov 24 06:49:11 2018
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:               0.00
+  Critical Path Length:          0.06
+  Critical Path Slack:           0.03
+  Critical Path Clk Period:      0.30
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          3
+  Hierarchical Port Count:        165
+  Leaf Cell Count:                540
+  Buf/Inv Cell Count:             168
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       524
+  Sequential Cell Count:           16
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      892.962002
+  Noncombinational Area:    85.120003
+  Buf/Inv Area:             89.376001
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:               978.082005
+  Design Area:             978.082005
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           698
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.45
+  Logic Optimization:                  0.09
+  Mapping Optimization:                0.66
+  -----------------------------------------
+  Overall Compile Time:                2.07
+  Overall Compile Wall Clock Time:     2.39
+
+1

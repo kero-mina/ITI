@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : area
+Design : sequential_alu
+Version: G-2012.06-SP2
+Date   : Sat Nov 24 06:49:11 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary_ff1p25v0c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ff1p25v0c.db)
+
+Number of ports:                           52
+Number of nets:                           196
+Number of cells:                          112
+Number of combinational cells:             93
+Number of sequential cells:                16
+Number of macros:                           0
+Number of buf/inv:                         41
+Number of references:                      10
+
+Combinational area:        892.962002
+Buf/Inv area:               89.376001
+Noncombinational area:      85.120003
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:           978.082005
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  --------------------------
+sequential_alu                     978.0820    100.0   98.4200    85.1200  0.0000  sequential_alu
+add_18                              66.5000      6.8   66.5000     0.0000  0.0000  sequential_alu_DW01_add_0
+mult_24                            652.7640     66.7  652.7640     0.0000  0.0000  sequential_alu_DW02_mult_0
+sub_20                              75.2780      7.7   75.2780     0.0000  0.0000  sequential_alu_DW01_sub_0
+--------------------------------  ---------  -------  --------  ---------  ------  --------------------------
+Total                                                 892.9620    85.1200  0.0000
+
+1

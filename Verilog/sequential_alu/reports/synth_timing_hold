@@ -1,0 +1,215 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : sequential_alu
+Version: G-2012.06-SP2
+Date   : Sat Nov 24 06:49:11 2018
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary_ff1p25v0c
+Wire Load Model Mode: top
+
+  Startpoint: accumulator_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[6] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  accumulator_reg[6]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[6]/Q (DFFR_X1)           0.05       0.05 f
+  result[6] (out)                          0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: accumulator_reg[7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[7] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  accumulator_reg[7]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[7]/Q (DFFR_X1)           0.05       0.05 f
+  result[7] (out)                          0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: accumulator_reg[8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[8] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  accumulator_reg[8]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[8]/Q (DFFR_X1)           0.05       0.05 f
+  result[8] (out)                          0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: accumulator_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[9] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  accumulator_reg[9]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[9]/Q (DFFR_X1)           0.05       0.05 f
+  result[9] (out)                          0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: accumulator_reg[10]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[10] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  accumulator_reg[10]/CK (DFFR_X1)         0.00       0.00 r
+  accumulator_reg[10]/Q (DFFR_X1)          0.05       0.05 f
+  result[10] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: accumulator_reg[11]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[11] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  accumulator_reg[11]/CK (DFFR_X1)         0.00       0.00 r
+  accumulator_reg[11]/Q (DFFR_X1)          0.05       0.05 f
+  result[11] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: accumulator_reg[12]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[12] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  accumulator_reg[12]/CK (DFFR_X1)         0.00       0.00 r
+  accumulator_reg[12]/Q (DFFR_X1)          0.05       0.05 f
+  result[12] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: accumulator_reg[13]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[13] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  accumulator_reg[13]/CK (DFFR_X1)         0.00       0.00 r
+  accumulator_reg[13]/Q (DFFR_X1)          0.05       0.05 f
+  result[13] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: accumulator_reg[14]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[14] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  accumulator_reg[14]/CK (DFFR_X1)         0.00       0.00 r
+  accumulator_reg[14]/Q (DFFR_X1)          0.05       0.05 f
+  result[14] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: accumulator_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[15] (output port clocked by clk)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  accumulator_reg[15]/CK (DFFR_X1)         0.00       0.00 r
+  accumulator_reg[15]/Q (DFFR_X1)          0.05       0.05 f
+  result[15] (out)                         0.00       0.05 f
+  data arrival time                                   0.05
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

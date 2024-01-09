@@ -1,0 +1,45 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : sequential_alu
+Version: G-2012.06-SP2
+Date   : Sat Nov 24 06:49:11 2018
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_ff1p25v0c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ff1p25v0c.db)
+
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary_ff1p25v0c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+sequential_alu         5K_hvratio_1_1    NangateOpenCellLibrary_ff1p25v0c
+
+
+Global Operating Voltage = 1.25 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+sequential_alu                         1.18e+03 2.60e+03 6.16e+04 3.84e+03 100.0
+  mult_24 (sequential_alu_DW02_mult_0)  916.089 1.44e+03 4.02e+04 2.39e+03  62.3
+  add_18 (sequential_alu_DW01_add_0)     45.386  138.911 3.93e+03  188.224   4.9
+  sub_20 (sequential_alu_DW01_sub_0)     63.163  145.977 4.82e+03  213.964   5.6
+1

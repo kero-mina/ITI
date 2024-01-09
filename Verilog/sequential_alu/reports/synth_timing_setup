@@ -1,0 +1,325 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : sequential_alu
+Version: G-2012.06-SP2
+Date   : Sat Nov 24 06:49:11 2018
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary_ff1p25v0c
+Wire Load Model Mode: top
+
+  Startpoint: accumulator_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[0] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accumulator_reg[0]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[0]/Q (DFFR_X1)           0.06       0.06 r
+  result[0] (out)                          0.00       0.06 r
+  data arrival time                                   0.06
+
+  clock clk (rise edge)                    0.30       0.30
+  clock network delay (ideal)              0.00       0.30
+  clock uncertainty                       -0.05       0.25
+  output external delay                   -0.16       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+  Startpoint: accumulator_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[1] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accumulator_reg[1]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[1]/Q (DFFR_X1)           0.06       0.06 r
+  result[1] (out)                          0.00       0.06 r
+  data arrival time                                   0.06
+
+  clock clk (rise edge)                    0.30       0.30
+  clock network delay (ideal)              0.00       0.30
+  clock uncertainty                       -0.05       0.25
+  output external delay                   -0.16       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+  Startpoint: accumulator_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[2] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accumulator_reg[2]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[2]/Q (DFFR_X1)           0.06       0.06 r
+  result[2] (out)                          0.00       0.06 r
+  data arrival time                                   0.06
+
+  clock clk (rise edge)                    0.30       0.30
+  clock network delay (ideal)              0.00       0.30
+  clock uncertainty                       -0.05       0.25
+  output external delay                   -0.16       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+  Startpoint: accumulator_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[3] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accumulator_reg[3]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[3]/Q (DFFR_X1)           0.06       0.06 r
+  result[3] (out)                          0.00       0.06 r
+  data arrival time                                   0.06
+
+  clock clk (rise edge)                    0.30       0.30
+  clock network delay (ideal)              0.00       0.30
+  clock uncertainty                       -0.05       0.25
+  output external delay                   -0.16       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+  Startpoint: accumulator_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[4] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accumulator_reg[4]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[4]/Q (DFFR_X1)           0.06       0.06 r
+  result[4] (out)                          0.00       0.06 r
+  data arrival time                                   0.06
+
+  clock clk (rise edge)                    0.30       0.30
+  clock network delay (ideal)              0.00       0.30
+  clock uncertainty                       -0.05       0.25
+  output external delay                   -0.16       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+  Startpoint: accumulator_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[5] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accumulator_reg[5]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[5]/Q (DFFR_X1)           0.06       0.06 r
+  result[5] (out)                          0.00       0.06 r
+  data arrival time                                   0.06
+
+  clock clk (rise edge)                    0.30       0.30
+  clock network delay (ideal)              0.00       0.30
+  clock uncertainty                       -0.05       0.25
+  output external delay                   -0.16       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+  Startpoint: accumulator_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[6] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accumulator_reg[6]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[6]/Q (DFFR_X1)           0.06       0.06 r
+  result[6] (out)                          0.00       0.06 r
+  data arrival time                                   0.06
+
+  clock clk (rise edge)                    0.30       0.30
+  clock network delay (ideal)              0.00       0.30
+  clock uncertainty                       -0.05       0.25
+  output external delay                   -0.16       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+  Startpoint: accumulator_reg[7]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[7] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accumulator_reg[7]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[7]/Q (DFFR_X1)           0.06       0.06 r
+  result[7] (out)                          0.00       0.06 r
+  data arrival time                                   0.06
+
+  clock clk (rise edge)                    0.30       0.30
+  clock network delay (ideal)              0.00       0.30
+  clock uncertainty                       -0.05       0.25
+  output external delay                   -0.16       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+  Startpoint: accumulator_reg[8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[8] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accumulator_reg[8]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[8]/Q (DFFR_X1)           0.06       0.06 r
+  result[8] (out)                          0.00       0.06 r
+  data arrival time                                   0.06
+
+  clock clk (rise edge)                    0.30       0.30
+  clock network delay (ideal)              0.00       0.30
+  clock uncertainty                       -0.05       0.25
+  output external delay                   -0.16       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+  Startpoint: accumulator_reg[9]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: result[9] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sequential_alu     5K_hvratio_1_1        NangateOpenCellLibrary_ff1p25v0c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  accumulator_reg[9]/CK (DFFR_X1)          0.00       0.00 r
+  accumulator_reg[9]/Q (DFFR_X1)           0.06       0.06 r
+  result[9] (out)                          0.00       0.06 r
+  data arrival time                                   0.06
+
+  clock clk (rise edge)                    0.30       0.30
+  clock network delay (ideal)              0.00       0.30
+  clock uncertainty                       -0.05       0.25
+  output external delay                   -0.16       0.09
+  data required time                                  0.09
+  -----------------------------------------------------------
+  data required time                                  0.09
+  data arrival time                                  -0.06
+  -----------------------------------------------------------
+  slack (MET)                                         0.03
+
+
+1

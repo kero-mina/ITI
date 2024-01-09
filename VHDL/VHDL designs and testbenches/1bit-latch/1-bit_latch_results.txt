@@ -1,0 +1,4 @@
+At Time 10 ns, output is: 10 , Correct Output is 1 , Correct Output is 0
+At Time 15 ns, output is: 10 , Correct Output is 1 , Correct Output is 0
+At Time 20 ns, output is: 01 , Correct Output is 0 , Correct Output is 1
+At Time 25 ns, output is: 01 , Correct Output is 0 , Correct Output is 1

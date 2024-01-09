@@ -1,0 +1,3 @@
+At Time 10 ns, output is: 1011 , Correct Output is 1011
+At Time 15 ns, output is: 1001 , Correct Output is 1001
+At Time 20 ns, output is: 1111 , Correct Output is 1111
